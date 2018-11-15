@@ -1,0 +1,34 @@
+#include<stdio.h>1	
+main()
+{
+	int i;
+	for(i=1;i<=55;i++)
+	{
+	if(i%3==0)
+	{
+	printf("do\t");
+	continue;
+	}
+	if(i%5==0)
+	{
+	printf("re\t");
+	continue;
+	}
+	if(i%7==0)
+	{
+	printf("mi\t");
+	continue;
+	}
+	if(i%3==0&&i%5==0)
+	{
+	printf("dore\t");
+	continue;
+	}
+	if(i%11==0)
+	printf("%d",i);
+	else
+	{
+	printf("%d\t",i);
+
+}
+}}
